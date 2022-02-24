@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+ul,li{
+  list-style: none;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 90px;
+}
+.ul{
+  display: flex;
+}
+.ul li+li{
+  margin-left: 40px;
+}
+.anc{
+  color: #1F1534;
+  opacity: 0.5;
+  transition: 300ms;
+}
+.anc:hover{
+  opacity: 1;
+  font-weight: 700;
+}
+/* -----------------header-end----------------- */
+.hero{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 84px;
+}
+.health-h1{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+}
+.hero-text{
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7D7987;
+  margin: 25px 0 45px 0;
+}
+.hero_link{
+  padding: 10px 40px;
+  background: #458FF6;
+  border-radius: 55px;
+  color: #fff;
+}
+/* ---------------hero------------ */
+.servis{
+  display: flex;
+  justify-content: center;
+}
+.chiziq-1{
+  width: 56px;
+  height: 2px;
+  background: #000000;
+  border-radius: 5px;
+  margin: 23px 0 33px 0;
+}
+.just-info{
+  margin-top: 113px;
+}
+.servis-h2{
+  font-size: 36px;
+  line-height: 56px;
+}
+.paragr-text{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7D7987;
+}
+.card{
+  margin-top: 80px;
+}
+.card-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f1f1;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  height: 354px;
+  
+}
+.card-list{
+  background: #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  padding: 18px 25px;
+  margin-left: 34px;
+}
+.card-text{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 56px;
+  margin-top: 22px;
+}
+.card-paragr{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 69px;
+}
+.link-a{
+  font-size: 18px;
+  line-height: 50px;
+  color: #458FF6;
+  padding: 1px 51px;
+  border: 1.4px solid #458FF6;
+  box-sizing: border-box;
+  border-radius: 55px;
+}
+.hero_link1{
+  font-size: 18px;
+  line-height: 60px;
+  padding: 10px 51px;
+  border: 1.4px solid #458FF6;
+  box-sizing: border-box;
+  border-radius: 55px;
+  color: #458FF6;
+}
+.hero_link1 span{
+  margin-left: 14px;
+}
+/* --------------aka-------------- */
+.person{
+  margin-top: 166px;
+  margin-left: 132px;
+}
+.person_gone{
+  width: 1120px;
+  padding: 64px 118px 89px 110px;
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
+}
+.person_gone-h1{
+  color: #ffffff;
+  text-align: center;
+
+}
+.line{
+  width: 56px;
+  height: 2px;
+  margin: 25px auto;
+  background: #FFFFFF;
+  border-radius: 6px;
+}
+.mono-person{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mono-img{
+  width: 133px;
+  height: 133px;
+  display: block;
+}
+.mono-item1{
+  display: flex;
+  align-items: center; 
+}
+.mono-tem-inner{
+  margin-left: 33px;
+  color: #ffffff;
+}
+.mono-item-text{
+  width: 420px;
+  color: #ffffff;
+}
+.slayd{
+  margin-top: 42px;
+  text-align: center;
+}
+/* ------------ */
+.alot{
+  margin-top: 180px;
+}
+.line2{
+  width: 56px;
+  height: 2px;
+  margin: 25px auto;
+  background: #000000;
+  border-radius: 6px;
+}
+.ul-slide{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.li-slayd{
+  width: 350px;
+  margin-top: 72px;
+  background: #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+.li-slayd h3{
+  margin-top: 21px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 32px;
+}
+.alot-text{
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+}
+.csl{
+  text-align: center;
+  margin-top: 104px;
+}
+.view{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458FF6;
+  padding: 10px 65px;
+  border: 1.4px solid #458FF6;
+  box-sizing: border-box;
+  border-radius: 55px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 200px;
+  padding: 80px 100px;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  color: #ffffff;
+}
+.nom1{
+  width: 391px;
+}
+.nom a{
+  color: #ffffff;
+}
+.a12{
+  margin: 20px 0;
+}
